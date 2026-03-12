@@ -157,7 +157,7 @@
 
   .hero-name { font-size:clamp(2.5rem,5vw,4.2rem); font-weight:800; line-height:1.05; letter-spacing:-2px; margin-bottom:.5rem; }
   .hero-sub { font-size:clamp(1rem,2vw,1.2rem); color:var(--muted); margin-bottom:1.5rem; font-weight:400; }
-  .hero-desc { font-size:.95rem; color:var(--muted); line-height:1.85; margin-bottom:2.5rem; max-width:480px; }
+  .hero-desc { font-size:.95rem; color:var(--muted); line-height:1.85; margin-bottom:1.5rem; max-width:480px; }
   @media(max-width:900px){ .hero-desc { margin:0 auto 2.5rem; } }
 
   .btn-primary {
@@ -213,8 +213,8 @@
 @media(max-width:500px){
     .hero-img-frame{width:170px;height:220px;}
     .hero-tag{font-size:.55rem; padding:4px 12px;}
-    .hero-sub{font-size:.85rem;}
-    .hero-desc{font-size:.78rem;}
+    .hero-sub{font-size:.95rem;}
+    .hero-desc{font-size:.88rem; margin-bottom:1rem; margin-top:-.5rem;}
     .hero-btns .btn-primary, .hero-btns .btn-ghost{font-size:.68rem; padding:8px 14px;}
     .hero-btns{margin-top:0rem; margin-bottom:0;}
     .hero-badge{font-size:.35rem; padding:3px 5px; gap:3px; max-width:80px;}
@@ -222,12 +222,14 @@
     .hero-badge div div{font-size:.35rem !important;}
     .hero-badge.b1{bottom:15px; left:50%; transform:translateX(-108%);}
     .hero-badge.b2{top:15px; right:50%; transform:translateX(108%);}
+    footer{font-size:.28rem; padding:1rem 5%;}
   }
+
   /* ABOUT */
   #about { background:var(--bg2); }
   .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start; }
   @media(max-width:900px){ .about-grid{grid-template-columns:1fr;} }
-  .about-desc { color:var(--muted); line-height:1.9; margin-bottom:1.25rem; }
+ .about-desc { font-size:clamp(1rem,2vw,1.2rem); color:var(--muted); line-height:1.9; margin-bottom:1.25rem; }
   .ipk-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:.75rem; margin-top:2rem; }
   @media(max-width:600px){ .ipk-grid{grid-template-columns:repeat(3,1fr);} }
   .ipk-card {
@@ -743,7 +745,6 @@
       <div class="cert-card">
         <div class="cert-img" style="position:relative">
           <img src="gambar/sertifikat1.jpg" alt="Sertifikat 1" style="width:100%;height:100%;object-fit:contain;-webkit-user-select:none;user-select:none;pointer-events:none">
-          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none"><span style="color:rgba(255,255,255,0.2);font-size:.85rem;font-weight:900;transform:rotate(-30deg);letter-spacing:2px;text-transform:uppercase;white-space:nowrap">Muhammad Ikhsan</span></div>
           <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,#0f1f3d 100%);pointer-events:none"></div>
         </div>
         <div class="cert-body">
@@ -755,7 +756,6 @@
       <div class="cert-card">
         <div class="cert-img" style="position:relative">
           <img src="gambar/sertifikat2.png" alt="Sertifikat 2" style="width:100%;height:100%;object-fit:contain;-webkit-user-select:none;user-select:none;pointer-events:none">
-          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none"><span style="color:rgba(255,255,255,0.2);font-size:.85rem;font-weight:900;transform:rotate(-30deg);letter-spacing:2px;text-transform:uppercase;white-space:nowrap">Muhammad Ikhsan</span></div>
           <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,#0f1f3d 100%);pointer-events:none"></div>
         </div>
        <div class="cert-body">
@@ -767,7 +767,6 @@
       <div class="cert-card">
         <div class="cert-img" style="position:relative">
           <img src="gambar/sertifikat3.jpg" alt="Sertifikat 3" style="width:100%;height:100%;object-fit:contain;-webkit-user-select:none;user-select:none;pointer-events:none">
-          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none"><span style="color:rgba(255,255,255,0.2);font-size:.85rem;font-weight:900;transform:rotate(-30deg);letter-spacing:2px;text-transform:uppercase;white-space:nowrap">Muhammad Ikhsan</span></div>
           <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,#0f1f3d 100%);pointer-events:none"></div>
         </div>
         <div class="cert-body">
@@ -779,7 +778,6 @@
       <div class="cert-card">
         <div class="cert-img" style="position:relative">
           <img src="gambar/sertifikat4.jpg" alt="Sertifikat 4" style="width:100%;height:100%;object-fit:contain;-webkit-user-select:none;user-select:none;pointer-events:none">
-          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none"><span style="color:rgba(255,255,255,0.2);font-size:.85rem;font-weight:900;transform:rotate(-30deg);letter-spacing:2px;text-transform:uppercase;white-space:nowrap">Muhammad Ikhsan</span></div>
           <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,#0f1f3d 100%);pointer-events:none"></div>
         </div>
         <div class="cert-body">
@@ -791,7 +789,6 @@
       <div class="cert-card">
         <div class="cert-img" style="position:relative">
           <img src="gambar/sertifikat5.jpg" alt="Sertifikat 5" style="width:100%;height:100%;object-fit:contain;-webkit-user-select:none;user-select:none;pointer-events:none">
-          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none"><span style="color:rgba(0, 0, 0, 0.233);font-size:.85rem;font-weight:900;transform:rotate(-30deg);letter-spacing:2px;text-transform:uppercase;white-space:nowrap">Muhammad Ikhsan</span></div>
           <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,#0f1f3d 100%);pointer-events:none"></div>
         </div>
         <div class="cert-body">
@@ -803,7 +800,6 @@
       <div class="cert-card">
         <div class="cert-img" style="position:relative">
           <img src="gambar/sertifikat6.png" alt="Sertifikat 6" style="width:100%;height:100%;object-fit:contain;-webkit-user-select:none;user-select:none;pointer-events:none">
-          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none"><span style="color:rgba(255,255,255,0.2);font-size:.85rem;font-weight:900;transform:rotate(-30deg);letter-spacing:2px;text-transform:uppercase;white-space:nowrap">Muhammad Ikhsan</span></div>
           <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,#0f1f3d 100%);pointer-events:none"></div>
         </div>
         <div class="cert-body">
