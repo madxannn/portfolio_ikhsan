@@ -220,14 +220,13 @@
     .hero-btns .btn-primary, .hero-btns .btn-ghost{font-size:.68rem; padding:8px 14px;}
     .hero-btns{margin-top:0rem; margin-bottom:0;}
     
-    /* Pengaturan Badge Mobile: Ukuran Dikecilkan */
-    .hero-badge{font-size:.3rem; padding:3px 5px; gap:3px; max-width:75px;}
-    .hero-badge i{font-size:.4rem;}
-    .hero-badge div div{font-size:.3rem !important;}
+    .hero-badge{font-size:.35rem; padding:3px 5px; gap:3px; max-width:80px;}
+    .hero-badge i{font-size:.45rem;}
+    .hero-badge div div{font-size:.35rem !important;}
     
-    /* Pengaturan Posisi: Digeser keluar frame agar tidak menutupi muka */
-    .hero-badge.b1{bottom:15px; left:0px; transform:none;} 
-    .hero-badge.b2{top:20px; right:0px; transform:none;}
+    /* Pengaturan Posisi: Digeser sedikittt keluar (120% alih-alih 108%) agar tidak menutupi wajah */
+    .hero-badge.b1{bottom:15px; left:50%; transform:translateX(-120%);} 
+    .hero-badge.b2{top:15px; right:50%; transform:translateX(120%);}
     
     footer{font-size:.28rem; padding:1rem 5%;}
   }
